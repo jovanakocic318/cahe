@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 14, 2018, 1:35:03 PM
+    Author     : Jovana
+*/
+
+@media(min-width:576px){
+    header .navbar-nav{
+        font-size: 1.06rem;
+    }
+    .subscribe h2{
+        font-size: 40px;
+    }
+    .subscribe div{
+        padding: 4rem;
+    }
+    .contact form{
+        padding: 0 60px  !important;
+    }
+    .our-services h1{
+        font-size: 4rem;
+    }
+    .contact address pre{
+        color: #262626 !important;
+    }
+
+
+
+
+
+
+}
+@media(min-width:768px){
+
+    .fresh .fresh-naslov{
+        font-size:60px;
+    }
+    header .navbar-brand{
+        font-size: 3rem;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        border-bottom:  none;
+
+    }
+    .bg-light {
+
+        background-color: transparent !important;
+
+    }
+    .m-6{
+        margin: 15rem 0 25rem 0;
+    }
+    .about-naslov{
+        font-size: 50px;
+    }
+    .services .about-naslov{
+        left: 10%;
+    }
+    .gallery p,
+    .blog p,
+    .contact p{
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+    .subscribe div{
+        padding: 149px 0 160px 0 !important;
+    }
+    .subscribe p{
+        width: 50%
+    }
+    .end .end-item{
+        display:flex;
+        justify-content: space-between
+
+
+    }
+    .navbar-light .navbar-nav .nav-link{
+        border-top: 3px solid transparent !important;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+        margin: 0.5rem;
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link.active
+    {
+        border-top: 3px solid #FF6033 !important;
+
+    }
+
+
+}
+@media(min-width:992px){
+    .services article{
+        padding: 0 7rem ;
+    }
+    .services .about-naslov{
+        left: 0%;
+    }
+    .aside-gallery{ 
+        position: relative;
+    }
+    .gallery aside .second {
+        bottom: 0%;
+        position: absolute;
+    }
+    .our-services h1{
+        font-size: 5rem;
+    }
+
+
+
+}
+@media(min-width:1200px){
+    .about-naslov{
+        font-size: 90px;
+    }
+
+
+
+}
